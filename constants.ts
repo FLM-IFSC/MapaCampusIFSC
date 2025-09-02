@@ -1,0 +1,28 @@
+// DEPRECATED: This file is a duplicate and should be deleted. The correct file is in the /src directory.
+
+import type { Location } from './types';
+
+export const MAP_POINTS: Location[] = [
+  { id: 1, name: "Campus Araranguá", region: "Sul", description: "Polo de tecnologia da informação e comunicação, com cursos voltados para o desenvolvimento de software e design digital no extremo sul catarinense.", position: { top: "85%", left: "81%" } },
+  { id: 2, name: "Campus Caçador", region: "Oeste", description: "Focado em engenharia de produção e automação industrial, este campus colabora com as indústrias da região meio-oeste.", position: { top: "38%", left: "48%" } },
+  { id: 3, name: "Campus Canoinhas", region: "Norte", description: "Especializado em agronegócio e engenharia florestal, desenvolvendo tecnologias para a indústria madeireira e agrícola do Planalto Norte.", position: { top: "14%", left: "62%" } },
+  { id: 4, name: "Campus Chapecó", region: "Oeste", description: "Centro de excelência em tecnologia de alimentos e engenharia de controle e automação, vital para o polo agroindustrial do oeste.", position: { top: "41%", left: "19%" } },
+  { id: 5, name: "Campus Criciúma", region: "Sul", description: "Referência em engenharia mecatrônica e design, apoiando a forte indústria de cerâmica e vestuário da região sul.", position: { top: "63%", left: "84%" } },
+  { id: 6, name: "Campus Florianópolis", region: "Grande Fpolis", description: "Principal campus da instituição, oferecendo uma vasta gama de cursos técnicos e superiores, com forte ênfase em inovação e pesquisa.", position: { top: "50%", left: "85.5%" } },
+  { id: 7, name: "Campus Florianópolis-Continente", region: "Grande Fpolis", description: "Especializado em gastronomia, hotelaria e turismo, é um centro de formação profissional para o setor de serviços da capital.", position: { top: "51%", left: "84%" } },
+  { id: 8, name: "Campus Garopaba", region: "Sul", description: "Voltado para gestão ambiental e desenvolvimento sustentável, com projetos focados na preservação do ecossistema litorâneo.", position: { top: "70%", left: "86%" } },
+  { id: 9, name: "Campus Gaspar", region: "Vale do Itajaí", description: "Polo da indústria têxtil e de confecção, com cursos de design de moda, modelagem e processos têxteis.", position: { top: "40%", left: "79%" } },
+  { id: 10, name: "Campus Itajaí", region: "Vale do Itajaí", description: "Focado em logística, comércio exterior e engenharia naval, atendendo às demandas do complexo portuário de Itajaí.", position: { top: "45.5%", left: "85%" } },
+  { id: 11, name: "Campus Jaraguá do Sul - Centro", region: "Norte", description: "Oferece cursos nas áreas de mecânica industrial, eletrotécnica e desenvolvimento de sistemas, em parceria com a indústria local.", position: { top: "26%", left: "77%" } },
+  { id: 12, name: "Campus Jaraguá do Sul - Rau", region: "Norte", description: "Com foco em vestuário, química e design, este campus atende à diversificada matriz industrial da região norte.", position: { top: "25%", left: "78%" } },
+  { id: 13, name: "Campus Joinville", region: "Norte", description: "Grande polo de engenharia, com cursos de mecânica, eletroeletrônica e plásticos, integrado ao maior polo industrial do estado.", position: { top: "15%", left: "88%" } },
+  { id: 14, name: "Campus Lages", region: "Planalto Serrano", description: "Centro de biotecnologia e ciências agrárias, desenvolvendo pesquisas para o agronegócio e a pecuária na serra catarinense.", position: { top: "65%", left: "60%" } },
+  { id: 15, name: "Campus Palhoça Bilíngue", region: "Grande Fpolis", description: "Primeiro campus público bilíngue (Libras/Português) do Brasil, focado na inclusão e acessibilidade, com cursos de comunicação e tradução.", position: { top: "55%", left: "84%" } },
+  { id: 16, name: "Campus São Carlos", region: "Oeste", description: "Especializado em agroecologia e desenvolvimento de sistemas, promove práticas agrícolas sustentáveis na região.", position: { top: "48%", left: "22%" } },
+  { id: 17, name: "Campus São José", region: "Grande Fpolis", description: "Polo de telecomunicações e engenharia de refrigeração, com laboratórios modernos para formação de profissionais da área de tecnologia.", position: { top: "48%", left: "84%" } },
+  { id: 18, name: "Campus São Lourenço do Oeste", region: "Oeste", description: "Oferece cursos voltados para a administração e o agronegócio, impulsionando o desenvolvimento socioeconômico local.", position: { top: "35%", left: "21%" } },
+  { id: 19, name: "Campus São Miguel do Oeste", region: "Oeste", description: "Referência em agroindústria e ciências da computação, este campus na fronteira fomenta a inovação no setor alimentício.", position: { top: "30%", left: "10%" } },
+  { id: 20, name: "Campus Tubarão", region: "Sul", description: "Com cursos de eletrotécnica e automação industrial, o campus atende às necessidades do parque industrial da região.", position: { top: "78%", left: "80%" } },
+  { id: 21, name: "Campus Urupema", region: "Planalto Serrano", description: "Focado em vitivinicultura e fruticultura de clima temperado, aproveitando as condições climáticas únicas da cidade mais fria do Brasil.", position: { top: "70%", left: "65%" } },
+  { id: 22, name: "Campus Xanxerê", region: "Oeste", description: "Polo de engenharia mecânica e agroindústria, contribuindo para a inovação e o fortalecimento da economia regional.", position: { top: "27%", left: "28%" } }
+];
