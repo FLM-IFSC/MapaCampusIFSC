@@ -23,5 +23,8 @@ export const MAP_POINTS: Location[] = [
   { id: 19, name: "Campus São Miguel do Oeste", region: "Oeste", description: "Referência em agroindústria e ciências da computação, este campus na fronteira fomenta a inovação no setor alimentício.", position: { top: "30%", left: "10%" } },
   { id: 20, name: "Campus Tubarão", region: "Sul", description: "Com cursos de eletrotécnica e automação industrial, o campus atende às necessidades do parque industrial da região.", position: { top: "78%", left: "80%" } },
   { id: 21, name: "Campus Urupema", region: "Planalto Serrano", description: "Focado em vitivinicultura e fruticultura de clima temperado, aproveitando as condições climáticas únicas da cidade mais fria do Brasil.", position: { top: "70%", left: "65%" } },
-  { id: 22, name: "Campus Xanxerê", region: "Oeste", description: "Polo de engenharia mecânica e agroindústria, contribuindo para a inovação e o fortalecimento da economia regional.", position: { top: "27%", left: "28%" } }
+  { id: 22, name: "Campus Xanxerê", region: "Oeste", description: "Polo de engenharia mecânica e agroindústria, contribuindo para a inovação e o fortalecimento da economia regional.", position: { top: "27%", left: "28%" } },
+  { id: 23, name: "IFSC - Reitoria", region: "Grande Fpolis", description: "Sede administrativa do Instituto Federal de Santa Catarina.", position: { top: "50%", left: "85%" } },
+  { id: 24, name: "IFSC EaD (Educação a Distância)", region: "Grande Fpolis", description: "Polo de educação a distância, oferecendo cursos em diversas áreas.", position: { top: "52%", left: "86%" } },
+  { id: 25, name: "Campus Geraldo Werninghaus", region: "Norte", description: "Com foco em mecânica e eletromecânica, este campus atende à forte demanda da indústria metal-mecânica da região.", position: { top: "24%", left: "79%" } }
 ];

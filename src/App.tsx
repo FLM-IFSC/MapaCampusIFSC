@@ -6,7 +6,7 @@ import LocationModal from './components/LocationModal';
 import MapPoint from './components/MapPoint';
 
 // Base64 representation of the map image to ensure it always loads.
-const MAP_IMAGE_BASE64 = 'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADElEQVR4nGP4//8/AAX+Av7czFnnAAAAAElFTkSuQmCC';
+const MAP_IMAGE_BASE64 = `data:image/png;base64,${read_file("sc_map.base64")}`;
 
 const App: React.FC = () => {
   const [selectedLocation, setSelectedLocation] = useState<Location | null>(null);
