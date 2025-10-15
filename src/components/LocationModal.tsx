@@ -42,7 +42,17 @@ const LocationModal: React.FC<LocationModalProps> = ({ location, onClose }) => {
             {location.description}
           </p>
 
-          <div className="mt-8 text-right">
+          <div className="mt-8 flex justify-end gap-4">
+            {location.googleMapsUrl && (
+              <a
+                href={location.googleMapsUrl}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="bg-blue-500 text-white font-bold py-2 px-6 rounded-lg hover:bg-blue-600 transition-colors duration-300 focus:outline-none focus:ring-4 focus:ring-blue-500 focus:ring-opacity-50"
+              >
+                Ver no Google Maps
+              </a>
+            )}
             <button className="bg-teal-500 text-white font-bold py-2 px-6 rounded-lg hover:bg-teal-600 transition-colors duration-300 focus:outline-none focus:ring-4 focus:ring-teal-500 focus:ring-opacity-50">
               Saiba Mais
             </button>

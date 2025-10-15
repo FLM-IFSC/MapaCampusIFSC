@@ -8,4 +8,5 @@ export interface Location {
     top: string;
     left: string;
   };
+  googleMapsUrl?: string;
 }
